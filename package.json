@@ -1,0 +1,21 @@
+{
+  "name": "@stayradiated/gmail",
+  "version": "1.0.0",
+  "description": "Read the latest emails from your gmail account",
+  "main": "src/index.js",
+  "scripts": {
+    "flow": "pkg-flow",
+    "lint": "pkg-lint"
+  },
+  "author": "George Czabania <george@czabania.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@mishguru/json-fetch": "^8.2.1",
+    "basic-auth-token": "^0.4.2",
+    "node-fetch": "^2.1.2",
+    "xml2js": "^0.4.19"
+  },
+  "devDependencies": {
+    "@mishguru/package": "^3.0.1"
+  }
+}
